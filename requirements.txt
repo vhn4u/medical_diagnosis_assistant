@@ -11,7 +11,4 @@ langchain-community
 langchain-huggingface
 langchain-ollama
 faiss-cpu
-python-pptx
-jupyter
-nbconvert
-ipykernel
+
