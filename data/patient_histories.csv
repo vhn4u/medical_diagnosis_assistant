@@ -1,0 +1,11 @@
+patient_id,age,gender,reported_symptoms,history_notes
+P001,34,Female,"fever, chills, muscle aches, fatigue, sore throat for 2 days","Patient reports sudden onset of fever (101.5F) two days ago, accompanied by body aches and sore throat. No known allergies. Not vaccinated for flu this season."
+P002,58,Male,"increased thirst, frequent urination, blurred vision, fatigue over 3 weeks","Patient has a family history of diabetes. Reports drinking excessive water and waking up multiple times at night to urinate. Weight loss of 5 lbs without trying."
+P003,45,Female,"chest pain radiating to left arm, shortness of breath, sweating","Sudden onset chest pressure while climbing stairs, associated with nausea and cold sweats. History of high cholesterol and smoking for 20 years."
+P004,29,Male,"severe throbbing headache, nausea, sensitivity to light","Recurrent headaches occurring 2-3 times per month, often triggered by stress and lack of sleep. Family history of migraines."
+P005,67,Male,"cough with yellow phlegm, fever, shortness of breath, chest pain when breathing","Symptoms started 4 days ago and are worsening. Patient has COPD history and is a former smoker. Oxygen saturation reported as low by home pulse oximeter."
+P006,50,Female,"heartburn, regurgitation, chest discomfort after meals","Symptoms worsen when lying down after eating, especially spicy food. Has been taking antacids with limited relief for 3 weeks."
+P007,22,Female,"burning sensation during urination, frequent urge to urinate, pelvic discomfort","Symptoms began 2 days ago. No fever. Patient reports increased sexual activity recently and inadequate hydration."
+P008,39,Male,"persistent sadness, loss of interest in hobbies, fatigue, trouble sleeping","Patient reports these symptoms for over a month, affecting work performance. Denies suicidal ideation but reports feeling hopeless at times."
+P009,61,Female,"fatigue, weight gain, cold intolerance, dry skin, constipation","Gradual onset over several months. Patient has a family history of thyroid disorders and reports hair thinning."
+P010,72,Male,"sudden numbness on right side, slurred speech, confusion, severe headache","Symptoms began abruptly 30 minutes ago while watching TV. Family called emergency services immediately. History of hypertension, poorly controlled."
