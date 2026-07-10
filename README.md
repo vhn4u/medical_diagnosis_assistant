@@ -9,14 +9,15 @@ locally-served LLM via Ollama.
 
 | Requirement | Where |
 |---|---|
-| Model selection & fine-tuning | `src/finetune_embeddings.py` — fine-tunes `all-MiniLM-L6-v2` with Triplet Loss on domain-specific medical triplets |
-| Embedding generation & data insights | `notebooks/...ipynb` §4 — PCA cluster plot + similarity heatmap over the knowledge base |
+| Model selection & fine-tuning | `src/finetune_embeddings.py` — fine-tunes LLM with Triplet Loss on domain-specific medical triplets |
+| Embedding generation & data insights |  PCA cluster plot + similarity heatmap over the knowledge base |
 | RAG integration | `src/build_vectorstore.py` (FAISS + LangChain) + `src/rag_pipeline.py` |
 | Advanced prompt engineering | `src/prompt_templates.py` — system priming, few-shot, retrieval grounding, chain-of-thought, guardrails |
-| LLMOps & Responsible AI | `src/llmops.py` — structured logging, confidence guardrail, emergency-keyword filter, offline evaluation harness |
+| LLMOps & Responsible AI | `src/llmops.py` — structured logging, confidence guardrail |
 
 ## Project structure
 
+```
 medical_diagnosis_assistant/
 ├── data/
 │   ├── medical_knowledge_base.csv   # 21 conditions: symptoms, description, action, severity
@@ -37,24 +38,18 @@ medical_diagnosis_assistant/
 │   └── slide_notes_summary.txt                      # slide notes as plain text
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Setup
 
+
 pip install -r requirements.txt
-
-# Pull an Ollama model (any of these work — the pipeline auto-detects what's installed)
-ollama pull llama3.2      # recommended, matches the assignment brief
-# or: ollama pull gemma2:2b / ollama pull qwen3:0.6b
-
-I have used gemma2:2b here
-
-## Run
 
 open `notebooks/Medical_Diagnosis_Assistant_Capstone.ipynb` and run all cells —
 it executes the entire pipeline end-to-end with visualizations and a patient-case demo.
 
 ## Submission artifacts
 
-1. **PPT** — `ppt/Medical_Diagnosis_Assistant_Capstone.pptx` (17 slides, code/output screenshots)
-2. **Slide notes summary** — `ppt/slide_notes_summary.txt`
+1. **Notebook** — `notebooks/Medical_Diagnosis_Assistant_Capstone.ipynb` 
+2. **PPT** — `ppt/Medical_Diagnosis_Assistant_Capstone.pptx` (17 slides, code/output screenshots)
+3. **Slide notes summary** — `ppt/slide_notes_summary.txt`
