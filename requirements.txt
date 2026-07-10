@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+sentence-transformers
+datasets
+accelerate
+torch
+transformers
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-ollama
+faiss-cpu
+python-pptx
+jupyter
+nbconvert
+ipykernel
